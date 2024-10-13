@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akella Viswaja</title>
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <!-- Custom CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="book.css">
+
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="user">
+        <img class="profile-pic" src="./src/Picsart_24-09-29_21-41-47-436.jpg" alt="Profile Picture">
+        <h3 class="name">Akella Viswaja</h3>
+        <p class="post">Business Development Executive</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experince">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="home" id="home">
+        <div class="info-heading">
+            <h3>Hi there...!</h3>
+        <h3 class="name">My name is <span><b>Akella Viswaja</b></span></h3>
+        <h3 class="post">I am a <span class="typing-text">Team Business development Executive</span></h3>
+        </div>
+
+        <div class="social-icons">
+            <div class="example-2">
+                <div class="icon-content">
+                    <a href="https://github.com/" data-social="github">
+                        <i class="fab fa-github"></i>
+                        <div class="filled"></div>
+                    </a>
+                    <div class="tooltip">GitHub</div>
+                </div>
+
+                <div class="icon-content">
+                    <a href="https://www.linkedin.com/in/viswaja-akella-5b299a215" data-social="linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div class="filled"></div>
+                    </a>
+                    <div class="tooltip">LinkedIn</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Animation -->
+        <div class="main__action">
+            <a class="main__scroll" href="#">
+                <div class="main__scroll-box">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M11.9997 13.1716L7.04996 8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z" fill="rgba(28,28,30,1)"></path>
+                    </svg>
+                </div>
+                <span class="main__scroll-text">Scroll</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="about fade-in" id="about">
+        <div class="content">
+            <h3 class="heading text-bold">About Me</h3>
+            <h2 class="name">I'm Akella Viswaja</h2>
+            <p>I am Akella Viswaja, a Business Development Executive focused on driving business growth through client-centric strategies. I excel at building long-term client relationships, managing vendor partnerships, and overseeing contracts. By leveraging market insights and industry expertise, I deliver tailored solutions that ensure smooth execution, operational excellence, and sustainable growth.</p>
+        </div>
+
+        <div class="skills">
+            <div class="progress">
+                <h3>Operating Systems</h3>
+                <div class="bar"><span style="width: 80%;"></span></div>
+            </div>
+            <div class="progress">
+                <h3>Java</h3>
+                <div class="bar"><span style="width: 70%;"></span></div>
+            </div>
+            <div class="progress">
+                <h3>Communication</h3>
+                <div class="bar"><span style="width: 75%;"></span></div>
+            </div>
+            <div class="progress">
+                <h3>Team Player</h3>
+                <div class="bar"><span style="width: 55%;"></span></div>
+            </div>
+            <div class="progress">
+                <h3>Python</h3>
+                <div class="bar"><span style="width: 75%;"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="experince">
+        <h3 class="heading">Experience</h3>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-desktop"></i>
+                <h3><b>Stratsol Software Systems</b></h3>
+                <p>Business Development Executive</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-infinity"></i>
+                <h3><b>Insoursys</b></h3>
+                <p>SAP Talent Acquisition Executive</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3><b>BroadRange Tech</b></h3>
+                <p>Business Development Associate</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-server"></i>
+                <h3><b>Inmovidu</b></h3>
+                <p>Bussiness Development Associate</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h3 class="heading">Projects</h3>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>Hybrid Linguistic and Knowledge-Based Analysis for Fake News Detection</h3>
+                <p>In this project, I focused on the binary classification of news items as either FAKE or REAL by employing Sklearn's Passive Aggressive Classifier. This approach combines linguistic analysis with knowledge-based techniques to enhance the accuracy of fake news detection on social media platforms. Through the application of machine learning algorithms and natural language processing, the project aimed to develop an effective solution for identifying misinformation and promoting reliable news sources.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Credit Card Fraud Detection</h3>
+                <p>In this project, I focused on predicting fraudulent and legitimate credit card transactions based on time and transaction amount using machine learning algorithms. By employing techniques such as decision trees, random forests, and support vector machines, I developed a model that effectively identifies patterns of fraud, enhancing the security of financial transactions and providing a safer experience for consumers.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="education" id="education">
+        <h3 class="heading">Education</h3>
+            <div class="cards-container-edu">
+                <div class="card-edu">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <p>Bachelor's Degree</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="para">Completed my Bachelor's degree in Computer Science Engineering</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-edu">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="para">Completed my Intermidiate and secured with 71%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-edu">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <p>Schooling</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="para">Completed my Schooling and secured with 8.5 cgpa</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h3 class="heading">Certificates</h3>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./src/udemy.png" alt="Card Image" class="cardimg"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"
+                  ></path>
+                </svg>
+                <div class="cardcontent">
+                  <p class="cardtitle">Udemy</p>
+                  <p class="carddescription">
+                    I completed "The Complete 2022 Software Testing Bootcamp" from Udemy, gaining hands-on skills in both manual and automated testing. I learned key testing methodologies, bug tracking, test case creation, and tools like Selenium. This certification equipped me to ensure software quality and handle diverse testing scenarios efficiently.
+                  </p>
+                </div>
+            </div> 
+            <div class="card">
+                <img src="./src/code_tantra.png" alt="Card Image" class="cardimg"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"
+                  ></path>
+                </svg>
+                <div class="cardcontent">
+                  <p class="cardtitle">Code Tantra</p>
+                  <p class="carddescription">
+                    I completed the Java Course from CodeTantra, which provided me with a strong foundation in object-oriented programming, data structures, and algorithms. Through practical coding exercises, I developed hands-on experience in writing clean, efficient Java code, enhancing my problem-solving and software development skills.
+                  </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./src/aws_academy.png" alt="Card Image" class="cardimg"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"
+                  ></path>
+                </svg>
+                <div class="cardcontent">
+                  <p class="cardtitle">AWS Academy</p>
+                  <p class="carddescription">
+                    I completed the AWS Academy Cloud Foundations certification, gaining a strong understanding of core AWS services, cloud architecture, security, and networking. Through hands-on labs, I developed skills in managing and deploying cloud resources, enhancing my ability to build scalable and secure cloud solutions.
+                  </p>
+                </div>
+            </div>          
+        </div>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./src/Screenshot_20240919-124002.png" alt="Card Image" class="cardimg"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"
+                  ></path>
+                </svg>
+                <div class="cardcontent">
+                  <p class="cardtitle">College Project Certification</p>
+                  <p class="carddescription">
+                    I authored a paper on "A Hybrid Linguistic and Knowledge-Based Approach for Fake News Detection in Social Media," published in IJAEMA Journal. This research enhanced my skills in data analysis, natural language processing, and machine learning, focusing on combating misinformation through innovative detection techniques.
+                  </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./src/sales_course.jpeg" alt="Card Image" class="cardimg"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"
+                  ></path>
+                </svg>
+                <div class="cardcontent">
+                  <p class="cardtitle">Sales Course</p>
+                  <p class="carddescription">
+                    I completed a Sales Course from Mind Luster, gaining valuable insights into effective sales techniques and strategies. This course enhanced my understanding of customer engagement, negotiation, and closing deals. It provided me with practical approaches to sales processes, helping me develop the skills necessary to drive business growth and meet client expectations more effectively. With this certification, I am well-equipped to contribute to sales efforts in a more structured and results-driven manner.
+                  </p>
+                </div>
+            </div>       
+        </div>
+    </section>
+    
+      
+
+    <section class="contact" id="contact">
+        <br>
+        <hr>
+        <br>
+        <a href="./src/Akella Naga Viswaja.pdf" target="_blank" class="download-link">Download My Resume</a>
+    </a>
+    </section>
+
+    
+
+</div>
+
+</body>
+</html>
+
